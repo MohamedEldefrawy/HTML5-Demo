@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using Camera - Demo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/Camera.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <section class="camera-window">
+        <video autoplay id="videoElement">
+
+        </video>
+
+        <button id="btnStartCamera">Start</button>
+        <button id="btnScreenShot">Take ScreenShot</button>
+        <button id="btnStop">Stop Video</button>
+    </section>
+
+    <section class="screenshot-window">
+        <canvas id="screenShotArea"></canvas>
+        <img id="imgScreenShot"/>
+    </section>
+</div>
+
+</body>
+</html>
